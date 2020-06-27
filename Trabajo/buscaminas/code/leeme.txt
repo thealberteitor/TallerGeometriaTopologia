@@ -1,0 +1,9 @@
+pip3 install -r requirements.txt 
+python3 buscaminas.py 8 10
+
+#El primer parámetro indica la dimensión. Es simétrica luego sería NxN.
+#La dimensión debe estar entre 5-10 ya que si se sale de este rango la letra se ve mal
+#El segúndo parámetro indica el número las bombas
+
+#Al pisar una bomba se muestran el resto, aparece un mensajito arriba de que has perdido.
+
